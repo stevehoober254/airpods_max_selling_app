@@ -1,0 +1,7 @@
+{
+  "name": "AirPods_Max",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
