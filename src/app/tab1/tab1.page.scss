@@ -2,6 +2,11 @@
     -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
+#round{
+    height: 85%;
+    width: 100%;
+    --border-radius: 5px !important;
+}
 
 ion-avatar img  {
     margin-top: 5px;
@@ -33,7 +38,8 @@ ion-avatar img  {
     }
     #tag{
         font-size:1.8em;
-        color: var(--ion-color-primary)
+        color: var(--ion-color-dark);
+        font-weight: bold;
     }
 }
 ion-segment{
