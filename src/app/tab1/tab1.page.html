@@ -44,77 +44,81 @@
       </ion-col>
     </ion-item>
   </ion-list>
-  <ion-card class="container" button="true">
+  <ion-card class="container"  button="true" >
     <ion-list lines="none">
       <ion-item>
         <ion-col size="4">
-          <img src="assets/images/airpodmax.jpg">
+          <img src="assets/images/airpodmax.jpg" (click)="viewProduct()">
         </ion-col>
-        <ion-col>
+        <ion-col (click)="viewProduct()">
           <ion-label>Air Pod Max</ion-label>
           <ion-label>Navy Blue</ion-label>
           <ion-label>$699.0</ion-label>
         </ion-col>
         <ion-col size="3" class="ion-text-center">
           <div id="badge">
-            <ion-icon name="add" color="light"></ion-icon>
+            &nbsp;
+            <ion-icon button="true" name="add" color="light" (click)="addToCart()"></ion-icon>
           </div>
         </ion-col>
       </ion-item>
     </ion-list>
   </ion-card>
-  <ion-card class="container" button="true">
+  <ion-card class="container" button="true" >
     <ion-list lines="none">
       <ion-item>
         <ion-col size="4">
-          <img src="assets/images/air.png">
+          <img src="assets/images/air.png" (click)="viewProduct()">
         </ion-col>
-        <ion-col>
+        <ion-col (click)="viewProduct()">
           <ion-label>Air Pod Max</ion-label>
-          <ion-label>Navy Blue</ion-label>
+          <ion-label>Pink</ion-label>
           <ion-label>$699.0</ion-label>
         </ion-col>
         <ion-col size="3" class="ion-text-center">
           <div id="badge">
-            <ion-icon name="add" color="light"></ion-icon>
+            &nbsp;
+            <ion-icon name="add" color="light" (click)="addToCart()"></ion-icon>
           </div>
         </ion-col>
       </ion-item>
     </ion-list>
   </ion-card>
-  <ion-card class="container" button="true">
+  <ion-card class="container" button="true" >
     <ion-list lines="none">
       <ion-item>
         <ion-col size="4">
-          <img src="assets/images/headphones.jpg">
+          <img src="assets/images/headphones.jpg" (click)="viewProduct()">
         </ion-col>
-        <ion-col>
+        <ion-col (click)="viewProduct()">
           <ion-label>Air Pod Max</ion-label>
           <ion-label>Navy Blue</ion-label>
           <ion-label>$699.0</ion-label>
         </ion-col>
         <ion-col size="3" class="ion-text-center">
-          <div id="badge">
-            <ion-icon name="add" color="light"></ion-icon>
+          <div id="badge" class="ion-text-center">
+            &nbsp;
+            <ion-icon name="add" color="light" (click)="addToCart()"></ion-icon>
           </div>
         </ion-col>
       </ion-item>
     </ion-list>
   </ion-card>
-  <ion-card class="container" button="true">
+  <ion-card class="container" button="true" >
     <ion-list lines="none">
       <ion-item>
         <ion-col size="4">
-          <img src="assets/images/max_pro.jpg">
+          <img src="assets/images/max_pro.jpg" (click)="viewProduct()">
         </ion-col>
-        <ion-col>
+        <ion-col (click)="viewProduct()">
           <ion-label>Air Pod Max</ion-label>
           <ion-label>Navy Blue</ion-label>
           <ion-label>$699.0</ion-label>
         </ion-col>
         <ion-col size="3" class="ion-text-center">
           <div id="badge">
-            <ion-icon name="add" color="light"></ion-icon>
+            &nbsp;
+            <ion-icon name="add" color="light" (click)="addToCart()"></ion-icon>
           </div>
         </ion-col>
       </ion-item>

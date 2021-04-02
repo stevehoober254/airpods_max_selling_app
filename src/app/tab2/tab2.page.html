@@ -1,17 +1,63 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div class="img">
+    <ion-icon style="float: left;" name="chevron-back" (click)="closeModal()"></ion-icon>
+    <ion-icon style="float: right;" name="notifications"></ion-icon>
+  </div>
+  <ion-list lines="none" class="product_details">
+    <ion-item>
+      <ion-col size="9">
+        <ion-label id="name">AirPods Max</ion-label>
+        <ion-label id="color">Space gray</ion-label>
+      </ion-col>
+      <ion-col>
+        <ion-label id="price">${{getPrice()}}.00</ion-label>
+      </ion-col>
+    </ion-item>
+  </ion-list>
+  <ion-list lines="none" class="product_delivery">
+    <ion-item>
+      <ion-col size="1">
+        <ion-icon name="alarm"></ion-icon>
+      </ion-col>
+      <ion-col size="6">
+        <ion-label id="tag">Delivery in</ion-label>
+        <ion-label id="time" color="dark">60 min</ion-label>
+      </ion-col>
+      <ion-col>
+        <ion-list lines="none">
+          <ion-item class="quantity_Ctrl">
+            <ion-col>
+              <ion-button color="dark" icon-only id="round" (click)="removeCount()">
+                <ion-icon name="remove"></ion-icon>
+              </ion-button>
+            </ion-col>
+            <ion-col>
+              {{getCount()}}
+            </ion-col>
+            <ion-col>
+              <ion-button color="dark" icon-only id="round" (click)="addCount()">
+                <ion-icon name="add"></ion-icon>
+              </ion-button>
+            </ion-col>
+          </ion-item>
+        </ion-list>
+      </ion-col>
+    </ion-item>
+  </ion-list>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <div class="description">
+    <ion-label id="title">Detail introduction</ion-label><br><br>
+    <ion-text>
+      The over-ear headphone has been completely reimagined.
+      From cushion to canopy, AirPods Max are designed for an uncompromising fit
+      that creates the optimal acoustic seal for many different head shapes — fully immersing you in every sound.
+    </ion-text>
+  </div>
+  <div class="button">
+    <ion-button expand="full" color="dark" shape="round" (click)="addToCart()">
+      Add to Cart
+    </ion-button>
+  </div>
+
 </ion-content>

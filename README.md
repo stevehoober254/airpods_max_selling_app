@@ -1,4 +1,4 @@
-# mobile Application made from ionic
+# Mobile Application made from Ionic
 
 # AIRPOD MAX selling
 
@@ -13,4 +13,4 @@
 <img src="src/assets/images/ui.png">
 
 
-# UI CREDITS TO Alan Love
+# UI Credits to Alan Love

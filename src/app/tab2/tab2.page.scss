@@ -1,0 +1,65 @@
+:host{
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.img{
+    background: url("../../assets/images/headphones.jpg") 0 0/100% 100% no-repeat;
+    width: 100%;
+    height: 40%;
+    border-bottom: .8px solid lightgrey;
+    ion-icon{
+        padding:20px;
+        font-size: 1.5em;
+    }
+}
+.product_details{
+    #name{
+        font-size: 1.4em;
+        font-weight: bold;
+        color: gray;
+    }
+    #color{
+        color: gray;
+    }
+    #price{
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+}
+.product_delivery{
+    #tag{
+        color: gray;
+    }
+    #time{
+        font-size: 1em;
+        font-weight: bold;
+    }
+
+}
+.quantity_Ctrl{
+    // width: 80px;
+    ion-col{
+        text-align: center;
+    }
+}
+#round{
+    width:40px;
+    ion-icon{
+        font-size:1em;
+    }
+}
+.button{
+    margin:10px;
+}
+.description{
+    padding:20px;
+    #title{
+        font-size: 1.4em;
+        font-weight: bold;
+        color: gray;
+    }
+    ion-text{
+        color: gray;
+        line-height: .8;
+    }
+}
