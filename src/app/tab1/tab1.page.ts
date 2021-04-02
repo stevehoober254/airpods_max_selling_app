@@ -36,4 +36,7 @@ export class Tab1Page {
       });
       await tostPop.present();
     }
+    segmentChanged(event){
+      console.log(event.detail)
+    }
 }

@@ -25,25 +25,20 @@
       </ion-col>
     </ion-row>
   </ion-list>
-  <ion-list lines="none">
-    <ion-item>
-      <ion-col>
-        <ion-button color="dark" mode="ios">
-          Headset
-        </ion-button>
-      </ion-col>
-      <ion-col>
-        <ion-button color="light" mode="ios">
-          MacBook
-        </ion-button>
-      </ion-col>
-      <ion-col>
-        <ion-button color="light" mode="ios">
-          iPhone
-        </ion-button>
-      </ion-col>
-    </ion-item>
-  </ion-list>
+  <div class="segment">
+    <ion-segment scrollable (ionChange)="segmentChanged($event)" mode="ios" color="dark" value="headphone">
+      <ion-segment-button value="headphone">
+        <ion-label>Headset</ion-label>
+      </ion-segment-button>
+      <ion-segment-button value="macbook">
+        <ion-label>MacBook</ion-label>
+      </ion-segment-button>
+      <ion-segment-button value="iphone">
+        <ion-label>iPhone</ion-label>
+      </ion-segment-button>
+    </ion-segment>
+  </div>
+  
   <ion-card class="container"  button="true" >
     <ion-list lines="none">
       <ion-item>

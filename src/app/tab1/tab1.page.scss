@@ -21,6 +21,7 @@ ion-avatar img  {
    ion-icon{
        font-weight: bold;
        font-size: 1.2em;
+       margin-top:8px;
    }
 }
 .welcome{
@@ -35,7 +36,13 @@ ion-avatar img  {
         color: var(--ion-color-primary)
     }
 }
+ion-segment{
+    --background:var(--ion-color-dark)
+}
 
 ion-card {
     border: 1px solid var(--ion-color-dark);
+ }
+ .segment{
+     padding:20px;
  }
