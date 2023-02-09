@@ -10,7 +10,7 @@
 
 # Application UI
 
-<img src="src/assets/images/Screenshot%2021-04-02%at%03.03.02.png">
+<img src="src/assets/images/ui.png">
 
 
 # UI Credits to Alan Love
