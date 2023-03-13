@@ -1,4 +1,4 @@
-# Mobile Application made from Ionic
+# Mobile Application UI/UX Ionic
 
 # AIRPOD MAX selling
 
